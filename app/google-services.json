@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "534240318538",
+    "firebase_url": "https://dakshin-darshan-default-rtdb.firebaseio.com",
+    "project_id": "dakshin-darshan",
+    "storage_bucket": "dakshin-darshan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534240318538:android:325bbf8c18d1bc53bc82b3",
+        "android_client_info": {
+          "package_name": "com.example.dakshindarshan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ2zRTy1fKz2tw80gAIJhd59nqosbfhfk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

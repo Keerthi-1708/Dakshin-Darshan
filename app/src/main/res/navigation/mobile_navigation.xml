@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dakshindarshan.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.example.dakshindarshan.About"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/myBooking"
+        android:name="com.example.dakshindarshan.MyBooking"
+        android:label="My Booking"
+        tools:layout="@layout/fragment_my_booking" />
+    <fragment
+        android:id="@+id/contact"
+        android:name="com.example.dakshindarshan.Contact"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/term"
+        android:name="com.example.dakshindarshan.Term"
+        android:label="Term &amp; Condition"
+        tools:layout="@layout/fragment_term" />
+    <fragment
+        android:id="@+id/version"
+        android:name="com.example.dakshindarshan.Version"
+        android:label="Version"
+        tools:layout="@layout/fragment_version" />
+    <fragment
+        android:id="@+id/profile2"
+        android:name="com.example.dakshindarshan.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/feedback2"
+        android:name="com.example.dakshindarshan.Feedback"
+        android:label="Feed Back"
+        tools:layout="@layout/fragment_feedback" />
+
+
+</navigation>
